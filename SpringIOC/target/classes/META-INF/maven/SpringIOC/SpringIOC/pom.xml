@@ -25,7 +25,14 @@
     <artifactId>javax.servlet-api</artifactId>
     <version>4.0.1</version>
     <scope>provided</scope>
- </dependency> 	  
-	  
+ </dependency> 	
+ 
+   <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-servlet-api -->
+<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat-servlet-api</artifactId>
+    <version>11.0.0-M1</version>
+</dependency>
+
  </dependencies>
 </project>
